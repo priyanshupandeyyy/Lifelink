@@ -32,7 +32,7 @@ validation, CRUD, aggregations) for the report.
 | `main.py` | Runs the whole demo |
 | `mongo_queries.js` | mongosh equivalents of all queries |
 
-## Design decisions (for the viva)
+## Design decisions 
 
 - **Embedded:** `address` in donors, `blood_stock` in hospitals – read together, small, bounded.
 - **Referenced:** `donations` link to `donor_id` and `hospital_id` – they grow without limit, so
